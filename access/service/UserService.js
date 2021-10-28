@@ -17,8 +17,8 @@ export default class UserService {
         localStorage.removeItem('user');
     }
 
-    static registerOrg(name, orgName, email, mobile, password, cb, errorHandler) {
-        let org = {name: name, organisationName: orgName, email: email, password: password, mobile: mobile};
+    static registerOrg(name, orgName, email, mobile, password, authMode, cb, errorHandler) {
+        let org = {name: name, organisationName: orgName, email: email, password: password, mobile: mobile, authMode: authMode};
         return put(`/api/app/organisation`, org, cb, errorHandler);
     }
 }

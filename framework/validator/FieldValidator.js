@@ -1,8 +1,8 @@
-export default class DataElementValidator {
-    static emailRE = /\S+@\S+\.\S+/;
-    static mobileRE = /^\d{10}$/;
-    static countryCodeRE = /^\+?\d+$/;
+const emailRE = /\S+@\S+\.\S+/;
+const mobileRE = /^\d{10}$/;
+const countryCodeRE = /^\+?\d+$/;
 
+export default class DataElementValidator {
     static regexValidator(name, value, validatorRE) {
         if (!value) return `${name} can't be empty.`;
         if (!validatorRE.test(value)) return `Ooops! We need a valid ${name}.`;
@@ -10,14 +10,14 @@ export default class DataElementValidator {
     }
 
     static emailValidator(email) {
-        return this.regexValidator("Email", email, this.emailRE);
+        return this.regexValidator("Email", email, emailRE);
     }
 
     static mobileValidator(mobile) {
-        return this.regexValidator("Mobile", mobile, this.mobileRE);
+        return this.regexValidator("Mobile", mobile, mobileRE);
     }
 
     static countryCodeValidator(countryCode) {
-        return this.regexValidator("Country code", countryCode, this.countryCodeRE);
+        return this.regexValidator("Country code", countryCode, countryCodeRE);
     }
 }

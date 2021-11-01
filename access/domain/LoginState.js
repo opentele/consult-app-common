@@ -10,17 +10,14 @@ class LoginState {
 
     otpRequested() {
         this.otpTries++;
+        this.otpMode = true;
+        this.passwordMode = false;
     }
 
     passwordModeChosen() {
         this.otpMode = false;
         this.otpTries = 0;
         this.passwordMode = true;
-    }
-
-    otpModeChosen() {
-        this.otpMode = true;
-        this.passwordMode = false;
     }
 
     static clone(other) {

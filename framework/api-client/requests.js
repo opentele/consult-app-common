@@ -1,5 +1,7 @@
 import _ from 'lodash';
-export var baseApiUrl;
+export let requestGlobals = {
+    baseApiUrl: null
+};
 
 const fetchWithTimeOut = (url, options, timeout = 20000) => {
     return Promise.race([

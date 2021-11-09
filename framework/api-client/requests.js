@@ -4,7 +4,7 @@ function getBaseApiUrl() {
     let storyBookBaseUrl = process.env.STORYBOOK_SERVER_BASE_URL;
     if (!_.isNil(storyBookBaseUrl))
         return storyBookBaseUrl;
-    return null;
+    return "";
 }
 
 const fetchWithTimeOut = (url, options, timeout = 20000) => {
@@ -51,7 +51,7 @@ let _getText = (endpoint, cb, errorHandler) =>
     fetchFactory(endpoint, "GET", makeHeader("json"), (response) => response.text(), cb, errorHandler);
 
 export let post = (endpoint, body, cb, errorHandler) => {
-    let fullPath = `${baseApiUrl}/${endpoint}`;
+    let fullPath = `${getBaseApiUrl()}/${endpoint}`;
     console.log('requests', `POSTing to ${fullPath}`);
     return fetchFactory(fullPath, "POST", {body: JSON.stringify(body), ...makeHeader("json")}, (response) => {
         return response.json();
@@ -59,7 +59,7 @@ export let post = (endpoint, body, cb, errorHandler) => {
 };
 
 export let put = (endpoint, body, cb, errorHandler) => {
-    let fullPath = `${baseApiUrl}/${endpoint}`;
+    let fullPath = `${getBaseApiUrl()}/${endpoint}`;
     console.log('requests', `PUTing to ${fullPath}`);
     return fetchFactory(fullPath, "PUT", {body: JSON.stringify(body), ...makeHeader("json")}, (response) => {
         return response.json();

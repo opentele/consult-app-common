@@ -43,13 +43,13 @@ export default class LoginService {
         let encodedObj = _.keys(postObject).map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(postObject[key])}`);
         let formBody = encodedObj.join("&");
 
-        const request = new Request('/api/login', {
+        const request = new Request('api/login', {
             method: 'POST',
             body: formBody,
             headers: new Headers({'Content-Type': 'application/x-www-form-urlencoded'})
         });
 
-        const verifyLoginRequest = new Request('/api/currentUser', {
+        const verifyLoginRequest = new Request('api/currentUser', {
             method: 'GET'
         });
 
@@ -84,6 +84,6 @@ export default class LoginService {
     }
 
     static sendResetPasswordInstructionEmail(email, cb, errorHandler) {
-        return post("/api/user/resetPassword", {email: email}, cb, errorHandler);
+        return post("api/user/resetPassword", {email: email}, cb, errorHandler);
     }
 }

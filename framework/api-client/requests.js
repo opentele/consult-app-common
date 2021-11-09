@@ -1,7 +1,11 @@
 import _ from 'lodash';
-export let requestGlobals = {
-    baseApiUrl: null
-};
+
+function getBaseApiUrl() {
+    let storyBookBaseUrl = process.env.STORYBOOK_SERVER_BASE_URL;
+    if (!_.isNil(storyBookBaseUrl))
+        return storyBookBaseUrl;
+    return null;
+}
 
 const fetchWithTimeOut = (url, options, timeout = 20000) => {
     return Promise.race([

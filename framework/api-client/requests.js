@@ -1,9 +1,5 @@
 import _ from 'lodash';
-let baseApiUrl;
-
-const setBaseApiUrl = function (apiUrl) {
-    baseApiUrl = apiUrl;
-}
+export var baseApiUrl;
 
 const fetchWithTimeOut = (url, options, timeout = 20000) => {
     return Promise.race([

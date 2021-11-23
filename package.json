@@ -2,7 +2,7 @@
   "name": "consult-app-common",
   "version": "0.1.0",
   "dependencies": {
-    "i18next": "^21.5.2",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "consult-app-common": "link:./../react-app-common"
   }
 }

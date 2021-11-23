@@ -9,6 +9,10 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"consult-app-common@link:../react-app-common":
+  version "0.0.0"
+  uid ""
+
 i18next@^21.5.2:
   version "21.5.2"
   resolved "https://registry.yarnpkg.com/i18next/-/i18next-21.5.2.tgz#ababe6fb0a769360035ebf06a36751e0b810cdfa"

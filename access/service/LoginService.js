@@ -1,7 +1,6 @@
 import _ from 'lodash';
-import HTTPError from "../../framework/api-client/HTTPError";
+import {HTTPError, RC} from "react-app-common";
 import UserService from "./UserService";
-import {post} from "../../framework/api-client/requests";
 
 const sessionDurationSeconds = 1000 * 60 * 60 * 24 * 5;
 const lastActionTimeStorageKey = "LAST_ACTION_TIME";

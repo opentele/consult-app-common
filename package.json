@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "dependencies": {
     "lodash": "^4.17.21",
-    "consult-app-common": "link:./../react-app-common"
+    "react-app-common": "link:./../react-app-common"
   }
 }

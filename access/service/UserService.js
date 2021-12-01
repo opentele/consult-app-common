@@ -1,5 +1,5 @@
 import User from "../domain/User";
-import {put} from "../../framework/api-client/requests";
+import {RC} from "react-app-common";
 
 export default class UserService {
     static getUser() {
@@ -19,11 +19,11 @@ export default class UserService {
 
     static registerOrg(name, orgName, email, mobile, password, authMode, cb, errorHandler) {
         let org = {name: name, organisationName: orgName, email: email, password: password, mobile: mobile, authMode: authMode};
-        return put(`api/app/organisation`, org, cb, errorHandler);
+        return RC.put(`api/app/organisation`, org, cb, errorHandler);
     }
 
     static registerUser(name, email, mobile, authMode, organisationId, cb, errorHandler) {
         let user = {name: name, organisationId: organisationId, email: email, mobile: mobile, authMode: authMode};
-        return put(`api/app/user`, user, cb, errorHandler);
+        return RC.put(`api/app/user`, user, cb, errorHandler);
     }
 }

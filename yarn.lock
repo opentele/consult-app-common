@@ -9,10 +9,6 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"consult-app-common@link:../react-app-common":
-  version "0.0.0"
-  uid ""
-
 i18next@^21.5.2:
   version "21.5.2"
   resolved "https://registry.yarnpkg.com/i18next/-/i18next-21.5.2.tgz#ababe6fb0a769360035ebf06a36751e0b810cdfa"
@@ -24,6 +20,10 @@ lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
+"react-app-common@link:../react-app-common":
+  version "0.0.0"
+  uid ""
 
 regenerator-runtime@^0.13.4:
   version "0.13.9"

@@ -1,8 +1,13 @@
 {
   "name": "consult-app-common",
   "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-specifier-resolution=node index.js"
+  },
   "dependencies": {
     "lodash": "^4.17.21",
+    "i18next": "^21.5.2",
     "react-app-common": "link:./../react-app-common"
   }
 }

@@ -3,11 +3,18 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "test": "node --experimental-specifier-resolution=node index.js"
+    "test": "jest",
+    "smoke-test": "node --experimental-specifier-resolution=node index.js"
   },
   "dependencies": {
-    "lodash": "^4.17.21",
     "i18next": "^21.5.2",
+    "lodash": "^4.17.21",
     "react-app-common": "link:./../react-app-common"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.4.2",
+    "jest": "^27.4.3"
   }
 }

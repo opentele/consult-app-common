@@ -1,0 +1,12 @@
+{
+  "conference-client-next": "Your patient {{client}} is up in {{duration}} minutes.",
+  "conference-all-clients-completed": "Your {{numberOfClients}} completed consultation.",
+  "conference-no-client": "You do not have any patients in this session.",
+  "conference-no-vacancy": "The session is fully booked. No more slots.",
+  "happening-today": "Happening today",
+  "scheduled-later": "Scheduled later",
+  "past-consultations": "Past consultations",
+  "add-client": "Add patient",
+  "view-my-clients": "View my patients",
+  "join-conference": "Join conference"
+}

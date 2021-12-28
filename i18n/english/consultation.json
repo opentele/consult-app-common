@@ -1,6 +1,7 @@
 {
   "age": "Age",
   "gender": "Gender",
+  "registration-number": "Registration number",
   "other-details": "Other details",
   "complaints": "Complaints",
   "observations": "Observations",

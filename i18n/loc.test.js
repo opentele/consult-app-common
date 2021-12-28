@@ -1,5 +1,7 @@
-import i18n from './loc';
+import i18n, {i18nPromise} from './loc';
 
 test('should translate', () => {
-    expect(i18n.t('full-name')).toBe("Full name");
+    i18nPromise.then((t) => {
+        expect(t('full-name')).toBe("Full name");
+    });
 });

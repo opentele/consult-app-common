@@ -1,4 +1,5 @@
 {
   "reg-comm": "Communication (you can change it later)",
-  "register-help": "You can register your own organisation and add your users"
+  "register-help": "Register your own organisation and add other users to it.",
+  "register-organisation": "Register Organisation"
 }

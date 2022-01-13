@@ -1,5 +1,12 @@
 {
   "reg-comm": "Communication (you can change it later)",
-  "register-help": "Register your own organisation and add other users to it.",
-  "register-organisation": "Register Organisation"
+  "register-help": "Haven't registered your organisation/group",
+  "register-organisation": "Register Organisation",
+  "register-organisation-group": "Register your organisation/group",
+  "login-to-your-organisation": "Login to your organisation",
+  "login-help": "You have already registered your organisation or part of one?",
+  "email-or-mobile": "Email or mobile number",
+  "google": "Google",
+  "sign-in-with-google": "Sign in with Google",
+  "sign-up-with-google": "Sign up with Google"
 }

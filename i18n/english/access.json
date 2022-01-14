@@ -8,5 +8,18 @@
   "email-or-mobile": "Email or mobile number",
   "google": "Google",
   "sign-in-with-google": "Sign in with Google",
-  "sign-up-with-google": "Sign up with Google"
+  "sign-up-with-google": "Sign up with Google",
+  "switch-to-password-login": "Switch to login using password",
+  "request-otp": "Request OTP",
+  "submit-otp": "Submit OTP",
+  "login": "Login",
+  "otp-sent": "OTP has been sent to your {{loginBy}}",
+  "reset-password-title": "Reset your password by providing your user id",
+  "forgot-password": "Forgot Password?",
+  "password-reset-link-sent-email": "Password reset link sent to your email. Open on the link in the email and then change your password.",
+  "password-reset-link-sent-mobile": "Password reset link sent to your mobile as SMS. Open on the link and then change your password.",
+  "Email": "email",
+  "Mobile": "mobile",
+  "change-password-title": "Change your password",
+  "change-password": "Change Password"
 }

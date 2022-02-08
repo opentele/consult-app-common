@@ -1,5 +1,5 @@
 import User from "../domain/User";
-import {RC} from "react-app-common";
+import {RC, HeaderTypes} from "react-app-common";
 
 export default class UserService {
     static getUser() {
@@ -29,10 +29,14 @@ export default class UserService {
         return RC.put(`api/app/user`, user, cb, errorHandler);
     }
 
-    static login(userId, password, cb, errorHandler) {
+    static login(userId, password, userIdType, cb) {
         let postObject = {email: userId, password: password};
         let encodedObj = _.keys(postObject).map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(postObject[key])}`);
         let formBody = encodedObj.join("&");
-        return RC.post("api/login", formBody, cb, errorHandler, "xWwwForm");
+        return RC.post("api/login", formBody, cb, HeaderTypes.xWwwForm);
+    }
+
+    static isLoggedIn(cb) {
+        return RC.get("/api/user/loggedIn", cb);
     }
 }

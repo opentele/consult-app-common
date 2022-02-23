@@ -1,0 +1,18 @@
+{
+  "conference-client-next": "Your patient {{client}} is up next.",
+  "conference-all-clients-completed": "Your patients completed: {{numberOfClientsCompleted}}, remaining: {{numberOfClientsPending}}.",
+  "conference-no-client": "You do not have any patients in this session.",
+  "conference-no-vacancy": "The session is fully booked. No more slots.",
+  "active": "Active",
+  "scheduled-later": "Scheduled later",
+  "past-consultations": "Past consultations",
+  "add-client": "Add patient",
+  "view-my-clients": "View my patients",
+  "join-conference": "Join conference",
+  "schedule-title": "Title",
+  "add-a-new-scheduled-consultation": "Add a new scheduled consultation",
+  "save-schedule": "Save schedule",
+  "consultation-room-start-time-label": "Start time",
+  "consultation-room-end-time-label": "End time",
+  "consultation-room-next-client-label": "Next client"
+}

@@ -1,6 +1,7 @@
 import access from './access.json';
 import common from './common.json';
-import conference from './conference.json';
+import consultationRoom from './consultatonRoom.json';
 import consultation from './consultation.json';
+import system from './system.json';
 
-export default {...access, ...common, ...conference, ...consultation};
+export default {...access, ...common, ...consultationRoom, ...consultation, ...system};

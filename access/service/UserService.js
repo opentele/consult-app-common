@@ -39,4 +39,8 @@ export default class UserService {
     static isLoggedIn(cb) {
         return RC.get("/api/user/loggedIn", cb);
     }
+
+    static logout(cb) {
+        return RC.get("/api/logout", cb);
+    }
 }

@@ -1,46 +1,34 @@
-import User from "../domain/User";
-import {RC, HeaderTypes} from "react-app-common";
+import {HeaderTypes, RC} from "react-app-common";
 
 export default class UserService {
     static getUser() {
-        let item = localStorage.getItem('user');
-        if (item === null || item === '') return null;
-        let data = JSON.parse(item);
-        return new User(data);
+        return RC.get("api/user");
     }
 
-    static setUser(userJson) {
-        localStorage.setItem('user', JSON.stringify(userJson));
-    }
-
-    static removeUser() {
-        localStorage.removeItem('user');
-    }
-
-    static registerOrg(name, orgName, userId, userIdType, password, cb, errorHandler) {
+    static registerOrg(name, orgName, userId, userIdType, password) {
         let requestBody = {name: name, organisationName: orgName, password: password};
         if (userIdType === "email") requestBody.email = userId
         else requestBody.mobile = userId;
-        return RC.put(`api/app/organisation`, requestBody, cb, errorHandler);
+        return RC.put(`api/app/organisation`, requestBody);
     }
 
-    static registerUser(name, email, mobile, authMode, organisationId, cb, errorHandler) {
+    static registerUser(name, email, mobile, authMode, organisationId) {
         let user = {name: name, organisationId: organisationId, email: email, mobile: mobile, authMode: authMode};
-        return RC.put(`api/app/user`, user, cb, errorHandler);
+        return RC.put(`api/app/user`, user);
     }
 
-    static login(userId, password, userIdType, cb) {
+    static login(userId, password, userIdType) {
         let postObject = {email: userId, password: password};
         let encodedObj = _.keys(postObject).map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(postObject[key])}`);
         let formBody = encodedObj.join("&");
-        return RC.post("api/login", formBody, cb, HeaderTypes.xWwwForm);
+        return RC.post("api/login", formBody, HeaderTypes.xWwwForm);
     }
 
-    static isLoggedIn(cb) {
-        return RC.get("/api/user/loggedIn", cb);
+    static isLoggedIn() {
+        return RC.get("/api/user/loggedIn");
     }
 
-    static logout(cb) {
-        return RC.get("/api/logout", cb);
+    static logout() {
+        return RC.get("/api/logout");
     }
 }

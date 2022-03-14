@@ -2,7 +2,7 @@ import {HeaderTypes, RC} from "react-app-common";
 
 export default class UserService {
     static getUser() {
-        return RC.get("api/user");
+        return RC.get("api/user/current");
     }
 
     static registerOrg(name, orgName, userId, userIdType, password) {
@@ -25,10 +25,22 @@ export default class UserService {
     }
 
     static isLoggedIn() {
-        return RC.get("/api/user/loggedIn");
+        return RC.get("api/user/loggedIn");
     }
 
     static logout() {
-        return RC.get("/api/logout");
+        return RC.get("api/logout");
+    }
+
+    static addUser(userName) {
+        return RC.post(`api/organisation/addUser?userName=${userName}`);
+    }
+
+    static search(q) {
+        return RC.get(`api/user/search?q=${q}`);
+    }
+
+    static getUsers() {
+        return RC.get(`api/organisation/user`);
     }
 }

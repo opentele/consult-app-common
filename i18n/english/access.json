@@ -16,11 +16,11 @@
   "password-reset-link-sent-mobile": "Password reset link sent to your mobile as SMS. Open on the link and then change your password.",
   "password-mismatch-error": "Passwords do not match",
   "reg-comm": "Communication (you can change it later)",
-  "register-help": "Haven't registered your organisation/group",
-  "register-organisation-link": "Register Organisation",
+  "register-help": "Not registered?",
+  "register-organisation-link": "Register",
   "register-org-name-label": "Organisation name",
   "register-org-person-name-label": "Your name",
-  "register-organisation-group": "Register your organisation/group",
+  "register-organisation-group": "Register your organisation or as user",
   "register-org-submit-button": "Register Organisation",
   "request-otp": "Request OTP",
   "reset-password-title": "Reset your password by providing your user id",
@@ -29,6 +29,11 @@
   "sign-up-with-google": "Sign up with Google",
   "submit-otp": "Submit OTP",
   "switch-to-password-login": "Switch to login using password",
-  "userId-invalid-error": "User id is not a valid email or mobile number",
-  "userId-label": "Email or mobile number"
+  "username-invalid-error": "User name is not a valid email or mobile number",
+  "userId-label": "Email or mobile number",
+  "register-as-user-help": "After registration share your email/mobile with organisation administrator to get added",
+  "add-user-button-label": "Add user to organisation",
+  "add-user-text-placeholder": "Enter user's email or mobile",
+  "add-user-window-title": "Add user to organisation",
+  "role-column-text": "Role"
 }

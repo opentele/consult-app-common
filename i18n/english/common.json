@@ -2,5 +2,9 @@
   "email": "Email",
   "mobile": "Mobile number",
   "full-name": "Full name",
-  "home-welcome": "Welcome back, login to get started"
+  "home-welcome": "Welcome back, login to get started",
+  "manage-users-menu-item": "Manage users",
+  "search-clients-menu-item": "Search patients",
+  "add-button": "Add",
+  "cancel-button": "Cancel"
 }

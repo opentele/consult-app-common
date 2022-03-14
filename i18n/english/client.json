@@ -1,3 +1,4 @@
 {
-  "name": "Name"
+  "name": "Name",
+  "search-client-autocomplete-placeholder": "Search patient"
 }

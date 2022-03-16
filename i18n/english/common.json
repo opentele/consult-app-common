@@ -6,5 +6,7 @@
   "manage-users-menu-item": "Manage users",
   "search-clients-menu-item": "Search patients",
   "add-button": "Add",
-  "cancel-button": "Cancel"
+  "cancel-button": "Cancel",
+  "client-navigation-icon": "Clients",
+  "search": "Search"
 }

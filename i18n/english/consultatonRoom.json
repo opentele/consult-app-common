@@ -14,7 +14,8 @@
   "save-schedule": "Save schedule",
   "consultation-room-start-time-label": "Start time",
   "consultation-room-end-time-label": "End time",
-  "consultation-room-next-client-label": "Next client",
+  "consultation-room-next-client-label": "Next patient",
+  "consultation-room-number-of-clients": "Total number of patients",
   "view-clients-title": "Patients in this room",
   "queue-number": "Queue number",
   "one-time-consultation-room-title": "One time consultation room"

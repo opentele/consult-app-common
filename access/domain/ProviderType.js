@@ -2,5 +2,6 @@ import _ from "lodash";
 
 export default {
     Usher: 'Usher',
-    Consultant: 'Consultant'
+    Consultant: 'Consultant',
+    None: 'None'
 };

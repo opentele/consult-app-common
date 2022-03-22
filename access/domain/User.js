@@ -1,17 +1,19 @@
 export default class User {
-  constructor(data) {
-    this.data = data;
-  }
+    providerType;
 
-  static getName(user) {
-    return user.data["name"];
-  }
+    constructor(data) {
+        this.data = data;
+    }
 
-  static getUserId(user) {
-    return user.data["userId"];
-  }
+    static getName(user) {
+        return user.data["name"];
+    }
 
-  static updateField(user, name, value) {
-    user.data[name] = value;
-  }
+    static getUserId(user) {
+        return user.data["userId"];
+    }
+
+    static updateField(user, name, value) {
+        user.data[name] = value;
+    }
 }

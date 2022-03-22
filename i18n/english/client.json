@@ -6,5 +6,6 @@
   "add-client-title": "Register new patient",
   "male": "Male",
   "female": "Female",
-  "other": "Other"
+  "other": "Other",
+  "number-of-sessions": "Sessions"
 }

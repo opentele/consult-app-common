@@ -40,7 +40,7 @@ export default class UserService {
         return RC.get(`api/user/search?q=${q}`);
     }
 
-    static getUsers() {
-        return RC.get(`api/organisation/user`);
+    static getUsers(providerType) {
+        return _.isEmpty(providerType) ? RC.get(`api/organisation/user`) : RC.get(`api/organisation/user?providerType=${providerType}`);
     }
 }

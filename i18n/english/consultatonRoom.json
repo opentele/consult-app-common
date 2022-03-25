@@ -7,7 +7,8 @@
   "scheduled-later": "Scheduled later",
   "past-consultations": "Past consultations",
   "add-client": "Add patient",
-  "view-my-clients": "View my patients",
+  "view-clients": "View patients",
+  "edit-consultation-room-title": "Edit consultation room details",
   "join-conference": "Join conference",
   "schedule-title": "Title",
   "add-a-new-scheduled-consultation": "Add a new scheduled consultation",
@@ -18,5 +19,10 @@
   "consultation-room-number-of-clients": "Total number of patients",
   "view-clients-title": "Patients in this room",
   "queue-number": "Queue number",
-  "one-time-consultation-room-title": "One time consultation room"
+  "one-time-consultation-room-title": "One time consultation room",
+  "room-name": "Room name",
+  "scheduled-on": "Schedule on",
+  "scheduled-start-time": "Scheduled start time",
+  "scheduled-end-time": "Scheduled end time",
+  "total-slots": "Total slots"
 }

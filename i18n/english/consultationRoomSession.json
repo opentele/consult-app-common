@@ -1,0 +1,7 @@
+{
+  "set-as-active-client": "Set current patient",
+  "open-client-record": "Open Record",
+  "go-to-previous-client": "Previous patient",
+  "go-to-next-client": "Next patient",
+  "no-active-client": "No active patient"
+}

@@ -3,5 +3,7 @@
   "open-client-record": "Open Record",
   "go-to-previous-client": "Previous patient",
   "go-to-next-client": "Next patient",
-  "no-active-client": "No active patient"
+  "no-active-client": "No active patient",
+  "consultation-record-create-edit-title": "Consultation Record - {{client}}",
+  "client-queue-title": "Patient Queue"
 }

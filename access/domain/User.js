@@ -1,5 +1,8 @@
 export default class User {
     providerType;
+    confirmPassword;
+    userName;
+    name;
 
     constructor(data) {
         this.data = data;
@@ -9,8 +12,8 @@ export default class User {
         return user.data["name"];
     }
 
-    static getUserId(user) {
-        return user.data["userId"];
+    static getUserName(user) {
+        return user.data["userName"];
     }
 
     static updateField(user, name, value) {

@@ -5,10 +5,10 @@ export default class UserService {
         return RC.get("api/user/current");
     }
 
-    static registerOrg(name, orgName, userId, userIdType, password) {
+    static registerOrg(name, orgName, userName, userNameType, password) {
         let requestBody = {name: name, organisationName: orgName, password: password};
-        if (userIdType === "email") requestBody.email = userId
-        else requestBody.mobile = userId;
+        if (userNameType === "email") requestBody.email = userName
+        else requestBody.mobile = userName;
         return RC.put(`api/app/organisation`, requestBody);
     }
 
@@ -17,8 +17,8 @@ export default class UserService {
         return RC.put(`api/app/user`, user);
     }
 
-    static login(userId, password, userIdType) {
-        let postObject = {email: userId, password: password};
+    static login(userName, password, userNameType) {
+        let postObject = {email: userName, password: password};
         let encodedObj = _.keys(postObject).map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(postObject[key])}`);
         let formBody = encodedObj.join("&");
         return RC.post("api/login", formBody, HeaderTypes.xWwwForm);

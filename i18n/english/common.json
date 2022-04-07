@@ -9,5 +9,6 @@
   "cancel-button": "Cancel",
   "back-button": "Back",
   "client-navigation-icon": "Clients",
-  "search": "Search"
+  "search": "Search",
+  "mandatory-field": "Mandatory"
 }

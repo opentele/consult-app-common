@@ -7,14 +7,16 @@ export default class UserService {
 
     static registerOrg(name, orgName, userName, userNameType, password) {
         let requestBody = {name: name, organisationName: orgName, password: password};
-        if (userNameType === "email") requestBody.email = userName
+        if (userNameType === "email") requestBody.email = userName;
         else requestBody.mobile = userName;
-        return RC.put(`api/app/organisation`, requestBody);
+        return RC.put(`api/organisation`, requestBody);
     }
 
-    static registerUser(name, email, mobile, authMode, organisationId) {
-        let user = {name: name, organisationId: organisationId, email: email, mobile: mobile, authMode: authMode};
-        return RC.put(`api/app/user`, user);
+    static registerUser(name, userName, userNameType, password, providerType) {
+        let requestBody = {name: name, password: password, providerType: providerType};
+        if (userNameType === "email") requestBody.email = userName;
+        else requestBody.mobile = userName;
+        return RC.put(`api/organisation/user`, requestBody);
     }
 
     static login(userName, password, userNameType) {

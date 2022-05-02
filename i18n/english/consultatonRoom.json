@@ -24,5 +24,6 @@
   "scheduled-on": "Schedule on",
   "scheduled-start-time": "Scheduled start time",
   "scheduled-end-time": "Scheduled end time",
-  "total-slots": "Total slots"
+  "total-slots": "Total slots",
+  "edit-schedule-title": "Edit schedule"
 }

@@ -10,5 +10,6 @@
   "back-button": "Back",
   "client-navigation-icon": "Clients",
   "search": "Search",
-  "mandatory-field": "Mandatory"
+  "mandatory-field": "Mandatory",
+  "loading-title": "Loading..."
 }

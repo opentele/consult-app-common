@@ -45,4 +45,8 @@ export default class UserService {
     static getUsers(providerType) {
         return _.isEmpty(providerType) ? RC.get(`api/organisation/user`) : RC.get(`api/organisation/user?providerType=${providerType}`);
     }
+
+    static loadUser(userId) {
+        return RC.get(`api/organisation/user/${userId}`);
+    }
 }

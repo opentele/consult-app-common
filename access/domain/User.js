@@ -1,12 +1,8 @@
-export default class User {
-    providerType;
-    confirmPassword;
-    userName;
-    name;
+import UserType from "./UserType.js";
+import AbstractEntity from "./AbstractEntity.js";
 
-    constructor(data) {
-        this.data = data;
-    }
+export default class User extends AbstractEntity {
+    userType;
 
     static getName(user) {
         return user.data["name"];
@@ -18,5 +14,17 @@ export default class User {
 
     static updateField(user, name, value) {
         user.data[name] = value;
+    }
+
+    static fromResource(resource) {
+        return AbstractEntity.fromResource(resource, new User());
+    }
+
+    canManageUsers() {
+        return this.userType === UserType.OrgAdmin;
+    }
+
+    static newUser() {
+        return new User();
     }
 }

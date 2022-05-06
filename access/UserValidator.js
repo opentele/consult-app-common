@@ -2,9 +2,9 @@ import _ from "lodash";
 import {DataElementValidator} from "react-app-common";
 
 class UserValidator {
-    static validate(user) {
+    static validate(user, confirmPassword, validatePasswords) {
         const [validUserName, userNameType] = DataElementValidator.validateEmailOrMobileWithCountryCode(user.userName);
-        const passwordsValid = DataElementValidator.validatePasswords(user.password, user.confirmPassword);
+        const passwordsValid = validatePasswords ? DataElementValidator.validatePasswords(user.password, confirmPassword) : true;
         const nameValid = !_.isEmpty(user.name);
         const providerTypeValid = !_.isNil(user.providerType);
 

@@ -47,5 +47,8 @@
   "usher": "Usher/Moderator",
   "none": "None",
   "provider-type-empty": "Provider type is mandatory",
-  "self-register-user-button": "Signup as User"
+  "self-register-user-button": "Signup as User",
+  "edit-user-title": "{{userName}}",
+  "user-type-label": "User type",
+  "org-admin": "Organisation Admin"
 }

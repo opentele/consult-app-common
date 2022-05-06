@@ -20,11 +20,19 @@ export default class User extends AbstractEntity {
         return AbstractEntity.fromResource(resource, new User());
     }
 
+    static clone(other) {
+        return AbstractEntity.fromResource(other, new User());
+    }
+
     canManageUsers() {
         return this.userType === UserType.OrgAdmin;
     }
 
     static newUser() {
         return new User();
+    }
+
+    clone() {
+        return Object.assign(new User(), this);
     }
 }

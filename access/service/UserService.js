@@ -7,16 +7,16 @@ export default class UserService {
 
     static registerOrg(name, orgName, userName, userNameType, password) {
         let requestBody = {name: name, organisationName: orgName, password: password};
-        if (userNameType === "email") requestBody.email = userName;
+        if (userNameType === "Email") requestBody.email = userName;
         else requestBody.mobile = userName;
         return RC.put(`api/organisation`, requestBody);
     }
 
-    static registerUser(name, userName, userNameType, password, providerType) {
-        let requestBody = {name: name, password: password, providerType: providerType};
-        if (userNameType === "email") requestBody.email = userName;
-        else requestBody.mobile = userName;
-        return RC.put(`api/organisation/user`, requestBody);
+    static registerUser(user, userNameType) {
+        let requestBody = {...user};
+        if (userNameType === "Email") requestBody.email = user.userName;
+        else requestBody.mobile = user.userName;
+        return RC.put(`api/organisationUser`, requestBody);
     }
 
     static login(userName, password, userNameType) {
@@ -43,10 +43,10 @@ export default class UserService {
     }
 
     static getUsers(providerType) {
-        return _.isEmpty(providerType) ? RC.get(`api/organisation/user`) : RC.get(`api/organisation/user?providerType=${providerType}`);
+        return _.isEmpty(providerType) ? RC.get(`api/organisationUser`) : RC.get(`api/organisationUser?providerType=${providerType}`);
     }
 
     static loadUser(userId) {
-        return RC.get(`api/organisation/user/${userId}`);
+        return RC.get(`api/organisationUser/${userId}`);
     }
 }

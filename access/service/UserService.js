@@ -1,22 +1,32 @@
-import {HeaderTypes, RC} from "react-app-common";
+import {DataElementValidator, HeaderTypes, RC} from "react-app-common";
 
 export default class UserService {
     static getUser() {
-        return RC.get("api/user/current");
+        return RC.get("api/organisationUser/current");
     }
 
     static registerOrg(name, orgName, userName, userNameType, password) {
         let requestBody = {name: name, organisationName: orgName, password: password};
+        this._setUserName(userNameType, requestBody, userName);
+        return RC.put(`api/organisation`, requestBody);
+    }
+
+    static _setUserName(userNameType, requestBody, userName) {
         if (userNameType === "Email") requestBody.email = userName;
         else requestBody.mobile = userName;
-        return RC.put(`api/organisation`, requestBody);
     }
 
     static registerUser(user, userNameType) {
         let requestBody = {...user};
-        if (userNameType === "Email") requestBody.email = user.userName;
-        else requestBody.mobile = user.userName;
+        this._setUserName(userNameType, requestBody, user.userName);
         return RC.put(`api/organisationUser`, requestBody);
+    }
+
+    static updateProfile(user) {
+        const [,userNameType] = DataElementValidator.validateEmailOrMobileWithCountryCode(user.userName);
+        let requestBody = {...user};
+        this._setUserName(userNameType, requestBody, user.userName);
+        return RC.post(`api/organisationUser/current`, requestBody);
     }
 
     static login(userName, password, userNameType) {
@@ -34,8 +44,14 @@ export default class UserService {
         return RC.get("api/logout");
     }
 
-    static addUser(userName) {
-        return RC.post(`api/organisation/addUser?userName=${userName}`);
+    static addUser(user) {
+        let requestBody = {...user};
+        return RC.put(`api/organisationUser`, requestBody);
+    }
+
+    static updateUser(user) {
+        let requestBody = {...user};
+        return RC.post(`api/organisationUser`, requestBody);
     }
 
     static search(q) {
@@ -48,5 +64,9 @@ export default class UserService {
 
     static loadUser(userId) {
         return RC.get(`api/organisationUser/${userId}`);
+    }
+
+    static findUser(userName) {
+        return RC.get(`api/organisationUser?userName=${userName}`);
     }
 }

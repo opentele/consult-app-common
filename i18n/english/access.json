@@ -36,7 +36,7 @@
   "register-user-button": "Register user",
   "add-user-text-placeholder": "Enter user's email or mobile",
   "add-user-window-title": "Add user to organisation",
-  "role-column-text": "Role",
+  "role-column-text": "Organisation role",
   "organisation": "Organisation",
   "user": "User",
   "name-empty": "Name is mandatory",
@@ -50,5 +50,13 @@
   "self-register-user-button": "Signup as User",
   "edit-user-title": "{{userName}}",
   "user-type-label": "User type",
-  "org-admin": "Organisation Admin"
+  "org-admin": "Organisation Admin",
+  "email-or-mobile": "Email/Mobile",
+  "provider-type": "Provider type",
+  "user-already-in-organisation": "This user is already in your organisation",
+  "no-such-user-found": "No user with that email or mobile number found",
+  "user-found": "User found - {{name}}",
+  "enter-old-password-label": "Enter current password",
+  "update-password": "Update password?",
+  "created-by": "Created by"
 }

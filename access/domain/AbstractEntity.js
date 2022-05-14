@@ -29,7 +29,11 @@ class AbstractEntity {
     }
 
     static fromResource(resource, entity) {
-        Object.assign(entity, resource);
+        entity.id = resource.id;
+        entity.createdBy = resource.createdBy;
+        entity.lastModifiedBy = resource.lastModifiedBy;
+        entity.createdOn = resource.createdOn;
+        entity.updatedOn = resource.updatedOn;
         return entity;
     }
 }

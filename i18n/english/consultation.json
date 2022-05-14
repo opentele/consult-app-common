@@ -4,6 +4,8 @@
   "registration-number": "Registration number",
   "other-details": "Other details",
   "complaints": "Complaints",
-  "observations": "Observations",
-  "recommendations": "Recommendations"
+  "observations": "Observations (not shared with client)",
+  "recommendations": "Recommendations",
+  "date-of-consultation": "Date of consultation",
+  "follow-up-in": "Follow up in"
 }

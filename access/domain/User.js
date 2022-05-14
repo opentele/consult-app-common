@@ -2,37 +2,46 @@ import UserType from "./UserType.js";
 import AbstractEntity from "./AbstractEntity.js";
 
 export default class User extends AbstractEntity {
+    name;
     userType;
-
-    static getName(user) {
-        return user.data["name"];
-    }
-
-    static getUserName(user) {
-        return user.data["userName"];
-    }
-
-    static updateField(user, name, value) {
-        user.data[name] = value;
-    }
+    providerType;
+    userName;
 
     static fromResource(resource) {
-        return AbstractEntity.fromResource(resource, new User());
+        const user = AbstractEntity.fromResource(resource, new User());
+        user.name = resource.name;
+        user.userType = resource.userType;
+        user.providerType = resource.providerType;
+        user.userName = _.isEmpty(resource.email) ? resource.mobile : resource.email;
+        return user;
     }
 
-    static clone(other) {
-        return AbstractEntity.fromResource(other, new User());
+    static fromResources(resources) {
+        return resources.map((x) => User.fromResource(x, new User()));
     }
 
     canManageUsers() {
         return this.userType === UserType.OrgAdmin;
     }
 
+    getUserName() {
+        return this.userName;
+    }
+
     static newUser() {
         return new User();
     }
 
+    static clone(other) {
+        const user = AbstractEntity.fromResource(other, new User());
+        user.name = other.name;
+        user.userType = other.userType;
+        user.providerType = other.providerType;
+        user.userName = other.userName;
+        return user;
+    }
+
     clone() {
-        return Object.assign(new User(), this);
+        return User.clone(this);
     }
 }

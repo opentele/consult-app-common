@@ -42,7 +42,6 @@
   "name-empty": "Name is mandatory",
   "org-name-empty": "Organisation is mandatory",
   "register-new-user": "Register new user",
-  "provider-type-label": "Provider type",
   "consultant": "Consultant",
   "usher": "Usher/Moderator",
   "none": "None",

@@ -12,5 +12,10 @@ export const i18nPromise = i18next.init({
     }
 });
 
-const i18n = i18next;
+const i18n = {
+    t: i18next.t,
+    T: function(str)  {
+        return i18next.t(str).toUpperCase();
+    }
+};
 export default i18n;

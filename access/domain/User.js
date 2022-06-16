@@ -10,18 +10,14 @@ export default class User extends AbstractEntity {
     qualification;
 
     static fromResource(resource) {
-        const user = AbstractEntity.fromResource(resource, new User());
+        const user = AbstractEntity.fromOther(resource, new User());
         this.copyFields(user, resource);
         user.userName = _.isEmpty(resource.email) ? resource.mobile : resource.email;
         return user;
     }
 
     static copyFields(user, other) {
-        user.name = other.name;
-        user.userType = other.userType;
-        user.providerType = other.providerType;
-        user.identification = other.identification;
-        user.qualification = other.qualification;
+        return AbstractEntity.copyFields(other, user, ["name", "userType", "providerType", "identification", "qualification"]);
     }
 
     static fromResources(resources) {
@@ -49,5 +45,9 @@ export default class User extends AbstractEntity {
 
     clone() {
         return User.clone(this);
+    }
+
+    get displayForClient() {
+        return `${this.name} - ${this.identification} [${this.qualification}]`;
     }
 }

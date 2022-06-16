@@ -6,5 +6,7 @@
   "no-active-client": "No active patient",
   "consultation-record-create-edit-title": "Consultation Record - {{client}}",
   "client-queue-title": "Patient Queue",
-  "key-inference": "Key inference"
+  "key-inference": "Key inference",
+  "choose-file": "Select file",
+  "give-a-different-name-optional": "Give a different name (optional)"
 }

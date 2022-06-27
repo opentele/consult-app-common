@@ -37,8 +37,8 @@ export default class User extends AbstractEntity {
     }
 
     static clone(other) {
-        const user = AbstractEntity.fromResource(other, new User());
-        this.copyFields(user, other);
+        const user = User.copyFields(new User(), other);
+        AbstractEntity.fromOther(other, user);
         user.userName = other.userName;
         return user;
     }

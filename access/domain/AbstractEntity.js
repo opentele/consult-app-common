@@ -28,8 +28,8 @@ class AbstractEntity {
         return this._getDateForDisplay(this.updatedOn);
     }
 
-    static fromOther(resource, entity) {
-        this.copyFields(resource, entity, ["id", "createdBy", "lastModifiedBy", "createdOn", "updatedOn"])
+    static fromOther(other, entity) {
+        this.copyFields(other, entity, ["id", "createdBy", "lastModifiedBy", "createdOn", "updatedOn"])
         return entity;
     }
 

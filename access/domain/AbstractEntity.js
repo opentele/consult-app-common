@@ -33,6 +33,12 @@ class AbstractEntity {
         return entity;
     }
 
+    static fromOtherWith(from, to, fields) {
+        this.fromOther(from, to);
+        this.copyFields(from, to, fields);
+        return to;
+    }
+
     static copyFields(from, to, fields) {
         fields.forEach((x) => to[x] = from[x]);
         return to;

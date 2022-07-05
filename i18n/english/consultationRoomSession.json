@@ -8,5 +8,8 @@
   "client-queue-title": "Patient Queue",
   "key-inference": "Key inference",
   "choose-file": "Select file",
-  "give-a-different-name-optional": "Give a different name (optional)"
+  "give-a-different-name-optional": "Give a different name (optional)",
+  "display-file-title": "{{fileName}}",
+  "file-upload-in-progress-title": "File upload in progress",
+  "file-upload-in-progress-detail": "The file being uploaded will not be saved if you cancel. Are you sure you want to cancel?"
 }

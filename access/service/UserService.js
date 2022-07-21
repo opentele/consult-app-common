@@ -69,4 +69,8 @@ export default class UserService {
     static findUser(userName) {
         return RC.get(`api/organisationUser?userName=${userName}`);
     }
+
+    static registerOrgForOwner(orgName) {
+        return RC.put(`api/user/organisation`, orgName);
+    }
 }

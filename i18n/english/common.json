@@ -11,5 +11,6 @@
   "client-navigation-icon": "Clients",
   "search": "Search",
   "mandatory-field": "Mandatory",
-  "loading-title": "Loading..."
+  "loading-title": "Loading...",
+  "unknown-error": "Encountered error. If your internet is working fine then you may report this error to petmongrels@gmail.com"
 }

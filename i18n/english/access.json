@@ -8,7 +8,7 @@
   "google": "Google",
   "invalid-login-credentials": "Invalid login credentials",
   "login": "Login",
-  "login-help": "You have already registered your organisation or you are part of an organisation?",
+  "login-help": "Already registered?",
   "login-to-your-organisation": "Login to your organisation",
   "mobile": "mobile",
   "otp-sent": "OTP has been sent to your {{loginBy}}",
@@ -57,5 +57,8 @@
   "user-found": "User found - {{name}}",
   "enter-old-password-label": "Enter current password",
   "update-password": "Update password?",
-  "created-by": "Created by"
+  "created-by": "Created by",
+  "not-part-of-organisation": "You are not part of any organisation",
+  "contact-org-admin-to-get-added": "Or, you may contact the organisation administrator to add you",
+  "create-your-organisation": "Create your own organisation"
 }

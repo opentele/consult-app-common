@@ -8,6 +8,7 @@ export default class User extends AbstractEntity {
     userName;
     identification;
     qualification;
+    password;
 
     static fromResource(resource) {
         const user = AbstractEntity.fromOther(resource, new User());
@@ -17,7 +18,7 @@ export default class User extends AbstractEntity {
     }
 
     static copyFields(user, other) {
-        return AbstractEntity.copyFields(other, user, ["name", "userType", "providerType", "identification", "qualification"]);
+        return AbstractEntity.copyFields(other, user, ["name", "userType", "providerType", "identification", "qualification", "password"]);
     }
 
     static fromResources(resources) {

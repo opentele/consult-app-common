@@ -71,6 +71,6 @@ export default class UserService {
     }
 
     static registerOrgForOwner(orgName) {
-        return RC.put(`api/user/organisation`, orgName);
+        return RC.put(`api/user/organisation`, {name: orgName});
     }
 }

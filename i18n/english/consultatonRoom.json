@@ -25,5 +25,6 @@
   "scheduled-start-time": "Scheduled start time",
   "scheduled-end-time": "Scheduled end time",
   "total-slots": "Total slots",
-  "edit-schedule-title": "Edit schedule"
+  "edit-schedule-title": "Edit schedule",
+  "create-new-schedule": "New schedule"
 }

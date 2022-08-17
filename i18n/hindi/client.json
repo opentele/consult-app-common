@@ -1,0 +1,11 @@
+{
+  "name": "Name",
+  "search-client-autocomplete-placeholder": "Search patient",
+  "total-number-of-clients": "Total number of patients: {{totalCount}}, displaying: {{displayCount}}",
+  "add-client-title": "Register new patient",
+  "edit-client-title": "Edit patient",
+  "male": "Male",
+  "female": "Female",
+  "other": "Other",
+  "number-of-sessions": "Sessions"
+}

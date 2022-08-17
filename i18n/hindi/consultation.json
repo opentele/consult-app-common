@@ -1,0 +1,14 @@
+{
+  "age": "Age",
+  "gender": "Gender",
+  "registration-number": "Registration number",
+  "other-details": "Other details",
+  "complaints": "Complaints",
+  "observations": "Observations (not shared with client)",
+  "recommendations": "Recommendations",
+  "date-of-consultation": "Date of consultation",
+  "follow-up-in": "Follow up in",
+  "file-delete-title": "Are you sure you want to delete the file?",
+  "file-delete-message": "The file {{fileName}} will be deleted now and cannot be recovered.",
+  "file-attachments": "File attachments"
+}

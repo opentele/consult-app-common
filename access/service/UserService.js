@@ -17,9 +17,14 @@ export default class UserService {
     }
 
     static registerUser(user, userNameType) {
-        let requestBody = {...user};
+        const requestBody = {...user};
         this._setUserName(userNameType, requestBody, user.userName);
-        return RC.put(`api/organisationUser`, requestBody);
+        return RC.put("api/organisationUser", requestBody);
+    }
+
+    static saveLanguagePreference(user) {
+        const requestBody = {language: user.language};
+        return RC.patch("api/organisationUser/current/language", requestBody);
     }
 
     static updateProfile(user) {

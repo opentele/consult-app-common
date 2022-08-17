@@ -26,5 +26,8 @@
   "scheduled-end-time": "Scheduled end time",
   "total-slots": "Total slots",
   "edit-schedule-title": "Edit schedule",
-  "create-new-schedule": "New schedule"
+  "create-new-schedule": "New schedule",
+  "all-scheduled-rooms": "All scheduled",
+  "start-new-room": "Start new room",
+  "schedule": "Schedule"
 }

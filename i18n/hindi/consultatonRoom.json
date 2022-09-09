@@ -4,7 +4,7 @@
   "conference-no-client": "You do not have any patients in this session.",
   "conference-no-vacancy": "The session is fully booked. No more slots.",
   "active": "Active",
-  "scheduled-later": "Scheduled later",
+  "scheduled-later": "भविष्य में",
   "past-consultations": "पुराने",
   "add-client": "Add patient",
   "view-clients": "View patients",

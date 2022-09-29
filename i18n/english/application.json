@@ -7,5 +7,9 @@
   "change-language-menu-item": "Language / भाषा",
   "logout-menu-item": "Logout",
   "change-language-title": "Change language",
-  "choose-language": "Choose your language"
+  "choose-language": "Choose your language",
+  "save": "Save",
+  "years": "Years",
+  "months": "Months",
+  "home": "Home"
 }

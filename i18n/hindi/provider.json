@@ -1,7 +1,8 @@
 {
-  "professional-qualification-label": "Professional qualification",
-  "professional-identification-label": "Professional identification",
-  "provider-type-label": "Provider type",
-  "professional-details-explainer": "Professional details are displayed/shared with client",
-  "select-provider": "Select Providers"
+  "professional-qualification-label": "व्यावसायिक योग्यता",
+  "professional-identification-label": "व्यावसायिक पहचान",
+  "provider-type-label": "प्रदाता प्रकार",
+  "professional-details-explainer": "पेशेवर विवरण क्लाइंट के साथ प्रदर्शित/साझा किए जाते हैं",
+  "select-provider": "प्रदाताओं का चयन करें",
+  "providers": "प्रदाताओं"
 }

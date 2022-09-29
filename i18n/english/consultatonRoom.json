@@ -29,5 +29,9 @@
   "create-new-schedule": "New schedule",
   "all-scheduled-rooms": "All scheduled",
   "start-new-room": "Start new room",
-  "schedule": "Schedule"
+  "schedule": "Schedule",
+  "client-added-to-room": "Client added to room",
+  "start-date": "Start date",
+  "start-time": "Start time",
+  "end-time": "End time"
 }

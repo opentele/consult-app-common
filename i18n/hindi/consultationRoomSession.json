@@ -1,15 +1,15 @@
 {
-  "set-as-active-client": "Set current patient",
-  "open-client-record": "Open Record",
-  "go-to-previous-client": "Previous patient",
-  "go-to-next-client": "Next patient",
-  "no-active-client": "No active patient",
-  "consultation-record-create-edit-title": "Consultation Record - {{client}}",
-  "client-queue-title": "Patient Queue",
-  "key-inference": "Key inference",
-  "choose-file": "Select file",
-  "give-a-different-name-optional": "Give a different name (optional)",
+  "set-as-active-client": "वर्तमान रोगी सेट करें",
+  "open-client-record": "ओपन रिकॉर्ड",
+  "go-to-previous-client": "पिछला रोगी",
+  "go-to-next-client": "अगला रोगी",
+  "no-active-client": "कोई सक्रिय रोगी नहीं",
+  "consultation-record-create-edit-title": "परामर्श रिकॉर्ड - {{client}}",
+  "client-queue-title": "रोगी कतार",
+  "key-inference": "मुख्य अनुमान",
+  "choose-file": "फ़ाइल का चयन करें",
+  "give-a-different-name-optional": "एक अलग नाम दें (गैर-अनिवार्य)",
   "display-file-title": "{{fileName}}",
-  "file-upload-in-progress-title": "File upload in progress",
-  "file-upload-in-progress-detail": "The file being uploaded will not be saved if you cancel. Are you sure you want to cancel?"
+  "file-upload-in-progress-title": "फ़ाइल अपलोड जारी है",
+  "file-upload-in-progress-detail": "यदि आप रद्द करते हैं तो अपलोड की जा रही फ़ाइल सहेजी नहीं जाएगी। पक्का आप रद्द करना चाहते हैं?"
 }

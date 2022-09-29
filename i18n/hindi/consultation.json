@@ -1,14 +1,14 @@
 {
-  "age": "Age",
-  "gender": "Gender",
-  "registration-number": "Registration number",
-  "other-details": "Other details",
-  "complaints": "Complaints",
-  "observations": "Observations (not shared with client)",
-  "recommendations": "Recommendations",
-  "date-of-consultation": "Date of consultation",
-  "follow-up-in": "Follow up in",
-  "file-delete-title": "Are you sure you want to delete the file?",
-  "file-delete-message": "The file {{fileName}} will be deleted now and cannot be recovered.",
-  "file-attachments": "File attachments"
+  "age": "आयु",
+  "gender": "लिंग",
+  "registration-number": "पंजीकरण संख्या",
+  "other-details": "अन्य विवरण",
+  "complaints": "शिकायतों",
+  "observations": "अवलोकन (आपके नोट्स)",
+  "recommendations": "सिफारिशों",
+  "date-of-consultation": "परामर्श की तिथि",
+  "follow-up-in": "फॉलो अप करें",
+  "file-delete-title": "क्या आप वाकई फ़ाइल को हटाना चाहते हैं?",
+  "file-delete-message": "फ़ाइल {{fileName}} अब हटा दिया जाएगा और पुनर्प्राप्त नहीं किया जा सकता है।",
+  "file-attachments": "फ़ाइल अटैच्मेंट"
 }

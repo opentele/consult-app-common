@@ -3,5 +3,6 @@
   "professional-identification-label": "Professional identification",
   "provider-type-label": "Provider type",
   "professional-details-explainer": "Professional details are displayed/shared with client",
-  "select-provider": "Select Providers"
+  "select-provider": "Select Providers",
+  "providers": "Providers"
 }

@@ -1,11 +1,11 @@
 {
-  "name": "Name",
-  "search-client-autocomplete-placeholder": "Search patient",
-  "total-number-of-clients": "Total number of patients: {{totalCount}}, displaying: {{displayCount}}",
-  "add-client-title": "Register new patient",
-  "edit-client-title": "Edit patient",
-  "male": "Male",
-  "female": "Female",
-  "other": "Other",
-  "number-of-sessions": "Sessions"
+  "name": "नाम",
+  "search-client-autocomplete-placeholder": "रोगी खोजें",
+  "total-number-of-clients": "रोगियों की कुल संख्या: {{totalCount}}, दर्शित: {{displayCount}}",
+  "add-client-title": "नया रोगी पंजीकृत करें",
+  "edit-client-title": "रोगी संपादित करें",
+  "male": "पुरुष",
+  "female": "स्त्री",
+  "other": "अन्य",
+  "number-of-sessions": "सत्र"
 }

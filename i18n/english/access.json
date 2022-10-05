@@ -43,7 +43,7 @@
   "org-name-size-invalid": "Organisation is mandatory and must not be greater than 100 characters",
   "register-new-user": "Register new user",
   "consultant": "Consultant",
-  "usher": "Usher/Moderator",
+  "usher": "Moderator",
   "none": "None",
   "provider-type-empty": "Provider type is mandatory",
   "self-register-user-button": "Signup as User",

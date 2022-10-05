@@ -1,7 +1,7 @@
 import _ from "lodash";
 
 export default {
-    Usher: 'Usher',
+    Moderator: 'Moderator',
     Consultant: 'Consultant',
     None: 'None'
 };

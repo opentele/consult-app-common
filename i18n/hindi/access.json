@@ -43,7 +43,7 @@
   "org-name-size-invalid": "संगठन अनिवार्य है और 100 वर्णों से अधिक नहीं होना चाहिए",
   "register-new-user": "नया उपयोगकर्ता पंजीकृत करें",
   "consultant": "परामर्शदाता",
-  "usher": "मॉडरेटर",
+  "moderator": "मॉडरेटर",
   "none": "कोई भी नहीं",
   "provider-type-empty": "प्रदाता प्रकार अनिवार्य है",
   "self-register-user-button": "उपयोगकर्ता के रूप में साइन अप करें",

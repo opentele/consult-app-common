@@ -1,9 +1,9 @@
 {
   "name": "नाम",
-  "search-client-autocomplete-placeholder": "रोगी खोजें",
-  "total-number-of-clients": "रोगियों की कुल संख्या: {{totalCount}}, दर्शित: {{displayCount}}",
-  "add-client-title": "नया रोगी पंजीकृत करें",
-  "edit-client-title": "रोगी संपादित करें",
+  "search-client-autocomplete-placeholder": "ग्राहक खोजें",
+  "total-number-of-clients": "ग्राहकों की कुल संख्या: {{totalCount}}, दर्शित: {{displayCount}}",
+  "add-client-title": "नया ग्राहक पंजीकृत करें",
+  "edit-client-title": "ग्राहक एडिट करें",
   "male": "पुरुष",
   "female": "स्त्री",
   "other": "अन्य",

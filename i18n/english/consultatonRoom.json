@@ -6,7 +6,7 @@
   "active": "Active",
   "scheduled-later": "Scheduled later",
   "past-consultations": "Past consultations",
-  "add-client": "Add patient",
+  "add-client": "Add client",
   "view-clients": "View clients",
   "edit-consultation-room-title": "Edit consultation room details",
   "join-conference": "Join conference",
@@ -18,9 +18,10 @@
   "consultation-room-next-client-label": "Next client",
   "consultation-room-number-of-clients": "Total number of clients",
   "view-clients-title": "Clients in this room",
-  "queue-number": "Queue number",
+  "queue-number": "Queue #",
   "one-time-consultation-room-title": "One time consultation room",
   "room-name": "Room name",
+  "rooms": "Rooms",
   "scheduled-on": "Schedule on",
   "scheduled-start-time": "Scheduled start time",
   "scheduled-end-time": "Scheduled end time",
@@ -33,5 +34,8 @@
   "client-added-to-room": "Client added to room",
   "start-date": "Start date",
   "start-time": "Start time",
-  "end-time": "End time"
+  "end-time": "End time",
+  "no-clients-in-queue": "No Clients",
+  "no-providers": "No Providers",
+  "manage-client-queue": "Manage Client Queue"
 }

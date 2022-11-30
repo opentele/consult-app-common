@@ -44,6 +44,7 @@
   "register-new-user": "Register new user",
   "consultant": "Consultant",
   "moderator": "Moderator",
+  "both": "Both",
   "none": "None",
   "provider-type-empty": "Provider type is mandatory",
   "self-register-user-button": "Signup as User",

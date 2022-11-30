@@ -27,6 +27,7 @@
   "total-slots": "कुल स्लॉट",
   "edit-schedule-title": "शेड्यूल संपादित करें",
   "create-new-schedule": "नई सारणी",
+  "rooms": "कमरे",
   "all-scheduled-rooms": "सभी अनुसूचित",
   "start-new-room": "नया कमरा शुरू करें",
   "schedule": "शेड्यूल करें",
@@ -35,5 +36,8 @@
   "every weekday": "प्रत्येक कार्य दिवस",
   "start-date": "आरंभ तिथि",
   "start-time": "समय शुरू",
-  "end-time": "समय अंत"
+  "end-time": "समय अंत",
+  "no-clients-in-queue": "कोई ग्राहक नहीं",
+  "no-providers": "कोई प्रदाता नहीं",
+  "manage-client-queue": "ग्राहक कतार प्रबंधन"
 }

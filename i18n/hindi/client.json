@@ -1,4 +1,5 @@
 {
+  "client": "ग्राहक",
   "name": "नाम",
   "search-client-autocomplete-placeholder": "ग्राहक खोजें",
   "total-number-of-clients": "ग्राहकों की कुल संख्या: {{totalCount}}, दर्शित: {{displayCount}}",

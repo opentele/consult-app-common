@@ -1,4 +1,5 @@
 {
+  "client": "Client",
   "name": "Name",
   "search-client-autocomplete-placeholder": "Search client",
   "total-number-of-clients": "Total number of clients: {{totalCount}}, displaying: {{displayCount}}",

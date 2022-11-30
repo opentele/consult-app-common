@@ -1,6 +1,6 @@
 {
   "set-as-active-client": "Set current client",
-  "open-client-record": "Open Record",
+  "open-client-record": "Client Record",
   "go-to-previous-client": "Previous client",
   "go-to-next-client": "Next client",
   "no-active-client": "No active client",

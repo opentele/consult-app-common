@@ -62,5 +62,6 @@
   "not-part-of-organisation": "You are not part of any organisation",
   "contact-org-admin-to-get-added": "Or, you may contact the organisation administrator to add you",
   "create-your-organisation": "Create your own organisation",
-  "check-user": "Check User"
+  "check-user": "Check User",
+  "users-list": "Users List"
 }

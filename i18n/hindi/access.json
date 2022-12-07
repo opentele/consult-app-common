@@ -62,5 +62,6 @@
   "not-part-of-organisation": "आप किसी संगठन का हिस्सा नहीं हैं",
   "contact-org-admin-to-get-added": "या, आपको जोड़ने के लिए आप संगठन व्यवस्थापक से संपर्क कर सकते हैं",
   "create-your-organisation": "अपना खुद का संगठन बनाएं",
-  "check-user": "उपयोगकर्ता खोजें"
+  "check-user": "उपयोगकर्ता खोजें",
+  "users-list": "उपयोगकर्ता सूची"
 }

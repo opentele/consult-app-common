@@ -8,5 +8,6 @@
   "male": "Male",
   "female": "Female",
   "other": "Other",
-  "number-of-sessions": "Sessions"
+  "number-of-sessions": "Sessions",
+  "client-list": "Client List"
 }

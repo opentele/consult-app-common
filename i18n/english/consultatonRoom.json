@@ -35,7 +35,7 @@
   "start-date": "Start date",
   "start-time": "Start time",
   "end-time": "End time",
-  "no-clients-in-queue": "No Clients",
+  "no-clients-in-queue": "No Clients. Search and add.",
   "no-providers": "No Providers",
   "manage-client-queue": "Manage Client Queue"
 }

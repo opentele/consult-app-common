@@ -37,7 +37,7 @@
   "start-date": "आरंभ तिथि",
   "start-time": "समय शुरू",
   "end-time": "समय अंत",
-  "no-clients-in-queue": "कोई ग्राहक नहीं",
+  "no-clients-in-queue": "कोई ग्राहक नहीं, ढूँढें और जोड़ें|",
   "no-providers": "कोई प्रदाता नहीं",
   "manage-client-queue": "ग्राहक कतार प्रबंधन"
 }

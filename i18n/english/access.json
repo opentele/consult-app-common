@@ -49,6 +49,7 @@
   "provider-type-empty": "Provider type is mandatory",
   "self-register-user-button": "Signup as User",
   "edit-user-title": "{{userName}}",
+  "loading": "Loading ...",
   "user-type-label": "User type",
   "org-admin": "Organisation Admin",
   "email-or-mobile": "Email/Mobile",

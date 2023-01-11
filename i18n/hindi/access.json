@@ -49,6 +49,7 @@
   "provider-type-empty": "प्रदाता प्रकार अनिवार्य है",
   "self-register-user-button": "उपयोगकर्ता के रूप में साइन अप करें",
   "edit-user-title": "{{userName}}",
+  "loading": "खुल रहा है ...",
   "user-type-label": "उपयोगकर्ता का प्रकार",
   "org-admin": "संगठन व्यवस्थापक",
   "email-or-mobile": "ईमेल/मोबाइल",

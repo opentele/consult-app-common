@@ -3,6 +3,8 @@
   "mobile": "मोबाइल नम्बर",
   "full-name": "पूरा नाम",
   "home-welcome": "दुबारा स्वागत, लॉगिन करें",
+  "get-reset-password-link": "पास्वर्ड बदलनें का लिंक लें",
+  "login-with-signed-up-user": "रेजिस्टर करने के लिए धन्यवाद! अपने यूज़र और पास्वर्ड से लॉगिन करें|",
   "manage-users-menu-item": "यूज़र मैनज्मेंट",
   "search-clients-menu-item": "ग्राहक ढूँढें",
   "add-button": "जोड़ें",

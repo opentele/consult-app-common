@@ -1,5 +1,6 @@
 import UserType from "./UserType.js";
 import AbstractEntity from "./AbstractEntity.js";
+import {Util} from "react-app-common";
 
 export default class User extends AbstractEntity {
     name;
@@ -52,5 +53,15 @@ export default class User extends AbstractEntity {
 
     get displayForClient() {
         return `${this.name} - ${this.identification} [${this.qualification}]`;
+    }
+
+    static getRandomRegistrationUser() {
+        return {
+            name: `Foo ${Util.getRandomString()}`,
+            userName: `foo${Util.getRandomString()}@dueToDevMode.com`,
+            password: "password",
+            providerType: "Consultant",
+            userType: "User"
+        }
     }
 }

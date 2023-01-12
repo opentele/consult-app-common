@@ -3,6 +3,8 @@
   "mobile": "Mobile number",
   "full-name": "Full name",
   "home-welcome": "Welcome back, login to get started",
+  "get-reset-password-link": "Get Reset Password Link",
+  "login-with-signed-up-user": "Thanks for registering. Please login with your registered user and password.",
   "manage-users-menu-item": "Manage users",
   "search-clients-menu-item": "Search clients",
   "add-button": "Add",

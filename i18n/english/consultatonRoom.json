@@ -37,5 +37,7 @@
   "end-time": "End time",
   "no-clients-in-queue": "No Clients. Search and add.",
   "no-providers": "No Providers",
-  "manage-client-queue": "Manage Client Queue"
+  "manage-client-queue": "Manage Client Queue",
+  "every day": "Every day",
+  "no-rooms": "No Rooms"
 }

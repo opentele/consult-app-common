@@ -30,7 +30,7 @@
   "rooms": "कमरे",
   "all-scheduled-rooms": "सभी अनुसूचित",
   "start-new-room": "नया कमरा शुरू करें",
-  "schedule": "शेड्यूल करें",
+  "schedule": "शेड्यूल",
   "client-added-to-room": "ग्राहक को कमरे में जोड़ा गया",
   "every day": "रोज़",
   "every weekday": "प्रत्येक कार्य दिवस",
@@ -39,5 +39,6 @@
   "end-time": "समय अंत",
   "no-clients-in-queue": "कोई ग्राहक नहीं, ढूँढें और जोड़ें|",
   "no-providers": "कोई प्रदाता नहीं",
-  "manage-client-queue": "ग्राहक कतार प्रबंधन"
+  "manage-client-queue": "ग्राहक कतार प्रबंधन",
+  "no-rooms": "कोई कमरे नहीं"
 }

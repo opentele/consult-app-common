@@ -6,8 +6,11 @@
   "add-client-title": "नया ग्राहक पंजीकृत करें",
   "edit-client-title": "ग्राहक एडिट करें",
   "male": "पुरुष",
+  "Male": "पुरुष",
   "female": "स्त्री",
+  "Female": "स्त्री",
   "other": "अन्य",
+  "Other": "अन्य",
   "number-of-sessions": "सत्र",
   "client-list": "ग्राहक सूची"
 }
